@@ -1,0 +1,20 @@
+package Day05;
+
+public class Excer {
+
+	public static void main(String[] args) {
+		StringBuilder strn = 
+		int x = 8525;
+		while (x>0)
+		{
+			int ur= x%10;
+			System.out.print(ur);
+			x/=10;
+			
+			
+		}
+		
+
+	}  
+
+}

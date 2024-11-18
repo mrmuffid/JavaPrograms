@@ -1,0 +1,18 @@
+package Day05;
+
+public class Excer {
+
+	public static void main(String[] args) {
+		int x = 58965;
+		while (x>0)
+		{
+			int y = x%10;
+			System.out.print(y);
+			x=x/10;
+			
+		}
+		System.out.println(y);
+
+	}
+
+}

@@ -1,0 +1,27 @@
+package Day05;
+
+public class Excer {
+
+	public static void main(String[] args) {
+		StringBuilder srk = new StringBuilder();
+		int x = 1234;
+		while (x>0)
+		{
+			int ur= x%10;
+			System.out.print(ur);
+			x/=10;
+			srk.append(ur);
+		}
+		
+		int number = Integer.parseInt(srk.toString());
+		
+	
+		
+		
+
+	}  
+
+}
+
+		
+

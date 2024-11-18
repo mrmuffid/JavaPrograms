@@ -1,0 +1,25 @@
+package Day05;
+
+public class Excer {
+
+	public static void main(String[] args) {
+		
+		StringBuilder last = new StringBuilder();
+		int x = 58965;
+		int y=0;
+		int results=0;
+		while (x>0)
+		{
+			y = x%10;
+			System.out.print(y);
+			last.append(y)
+			x=x/10;
+
+		}
+		System.out.println();
+		System.out.println("r");
+		System.out.println(results);
+
+	}
+
+}

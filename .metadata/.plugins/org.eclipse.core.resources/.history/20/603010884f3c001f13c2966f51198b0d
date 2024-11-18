@@ -1,0 +1,33 @@
+package Day05;
+
+public class Excer {
+
+	public static void main(String[] args) {
+		
+		StringBuilder results = new StringBuilder();
+		int x = 1221;
+		int xn = x;
+		
+		int y=0;
+		
+		while (x>0)
+		{
+			y = x%10;
+			System.out.print(y);
+			results.append(y);
+			x=x/10;
+
+		}
+		System.out.println();
+		System.out.println("Muffid");
+		System.out.println(results);
+		String resultsx=results.toString();
+		
+		int nuber = Integer.parseInt(resultsx);
+		
+		String hola = (xn==nuber) ? "true":"false";
+		System.out.println(hola);
+
+	}
+
+}

@@ -1,0 +1,44 @@
+package Conditions;
+
+public class vouvels {
+
+	public static void main(String[] args) {
+		int letter = 5;
+		
+		boolean isVowel = letter.equals("a") || letter.equals("e") || letter.equals("i") || letter.equals("o") || letter.equals("u");
+
+		
+		boolean uppercase = letter.charAt(0) >= 65 && letter.charAt(0) <= 90;
+		boolean lowercase = letter.charAt(0) >= 97 && letter.charAt(0) <= 122;
+		
+
+		
+		if(letter.length()>1)
+		{
+			System.out.println("this is not a single charactor");
+		} else 
+		{
+			if(uppercase || lowercase)
+			{
+				String casea =(uppercase)? "this is a uppercase":"this is a lowwer case";
+				System.out.println(casea);
+				
+				
+				
+			} else
+			{
+				System.out.println("this is not a string");
+			}
+			
+			
+			
+		}
+		
+
+			
+			
+			
+			
+	}
+
+}

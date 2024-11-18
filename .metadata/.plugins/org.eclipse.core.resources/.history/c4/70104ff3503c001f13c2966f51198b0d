@@ -1,0 +1,21 @@
+package Day05;
+
+public class Excer {
+
+	public static void main(String[] args) {
+		StringBuilder strnNumber = new StringBuilder();
+		int yu = 2665;
+		while (0<yu)
+		{
+			int x = (yu%10);
+			System.out.print(x);
+			yu/=10;
+			strnNumber.append(x);
+			
+		}
+		int vb = Integer.parseInt(strNumber.toString());
+		
+
+	}
+
+}

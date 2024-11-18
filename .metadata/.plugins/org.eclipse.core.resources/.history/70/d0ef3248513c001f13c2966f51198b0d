@@ -1,0 +1,25 @@
+package Day05;
+
+public class Excer {
+
+	public static void main(String[] args) {
+		StringBuilder strNumber = new StringBuilder();
+		int yu = 2665;
+		while (0<yu)
+		{
+			int x = (yu%10);
+			System.out.print(x);
+			yu/=10;
+			strNumber.append(x);
+			
+		}
+		String snumber = strNumber.toString();
+		int vb = Integer.parseInt(snumber);
+		
+		String yx = (vb==yu)?"true":"false";
+		System.out.println(yx);
+		
+
+	}
+
+}

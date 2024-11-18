@@ -1,0 +1,30 @@
+package Day02;
+
+public class Variables {
+
+	public static void main(String[] args) {
+		int a;
+		a=20;
+		int b = 30;
+		System.out.println(a+"  "+b);
+		
+		int c,d;
+		a = 100;
+		b = 500;
+		c = 202;
+		d = 101;
+		int m = 505;
+		System.out.println(a+b+" "+c+""+d);
+		
+		
+		int x=115,y=22,z=666;
+		
+		System.out.println("print value:"+x);
+		
+		
+		
+	
+
+	}
+
+}
